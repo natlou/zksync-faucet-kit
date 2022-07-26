@@ -1,0 +1,13 @@
+# node packages
+node_modules/
+
+# ide files
+.vscode/
+
+# secrets
+secrets.json
+
+# logs
+yarn-error.log
+
+# workspace
