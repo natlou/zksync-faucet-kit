@@ -40,6 +40,7 @@ async function listAllDrips() {
                  - token: ${drip.token},
                  - decimals: ${decimals},
                  - name: ${await token.name()},
+                 - userBalance: ${await token.balanceOf(signer.address)},
                  - symbol: ${symbol},
                  - totalSupply: ${format(await token.totalSupply(), decimals)} ${symbol},
                  - amount: ${format(drip.amount, decimals)} ${symbol} (${drip.amount.toString()})

@@ -29,6 +29,7 @@ async function addDrip(token, amount) {
     await utils.waitConfirm(handle);
 }
 
+
 async function execute() {
     console.log('Use account: ', signer.address);
     console.log('Use fee token:', constants.feeToken);
